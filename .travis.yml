@@ -23,7 +23,6 @@ after_success:
   - docker push irahulsah/multi-nginx
 
 deploy:
-  edge: true
   provider: elasticbeanstalk
   region: us-east-1
   app:  multi-docker-eb
